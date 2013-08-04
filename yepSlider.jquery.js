@@ -6,10 +6,10 @@
  *   - shortcuts
  *
  *
- * Released under the GPL licence
+ * Released under the BSD licence
  * Author: RAFIDINIAINA A. Francky
  * Contributors: RAMBININTSOA Jonathan
- * 2011
+ * March 2011 & Aug 2013
  */
 (function($){
  	$.fn.extend({ 
