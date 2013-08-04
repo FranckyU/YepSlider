@@ -104,7 +104,7 @@ If you want your slide boxes sliding automatically, just add these in Yep init o
 Where *interSlideDuration* is the time (in seconds) Yep will wait after the last manual click to switch on automatic mode
 
 Notes:
-- In this case you can ommit the left/right navigation links so you'll end up having a HAML like this:
+In this case you can ommit the left/right navigation links so you'll end up having a HAML like this:
 
     #slider
       # slide-boxes-wrapper
