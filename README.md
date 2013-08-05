@@ -32,7 +32,7 @@ To turn it into a simple slider, you have to inject a wrapper element around the
     %a{href:"#", id:"right-arrow"}
       %img{src:"any_path/any_right_arrow_file.png"}
 
-**Take a note from your mockups the width of the slider box, in our example we will say 450px**  
+**Take a note from your mockups the width of the slider box, in our example we will say 800px**
 
 Now, add this in your application.coffee.js file
 
@@ -52,8 +52,10 @@ Now, add this in your application.coffee.js file
 That'all ! you can test your page and you'll see.
 
 Notes:
-- slider boxes MUST be displayed inline, use float:left or display: inline-block, or add the right class for that from your favorite CSS framework (We use bootstrap so it should be something like `col` or `span`)
-- Don't forget setting the slider element and slider boxes height in your CSS (idealy equals)
+- .slide-box MUST be displayed inline, use float:left or display: inline-block, or add the right class for that from your favorite CSS framework (We use bootstrap so it should be something like `col` or `span`)
+- #slider must have the CSS rule overflow: hidden
+- .slide-box AND #slider MUST have the same width
+- Don't forget setting the #slider container and .slide-box heights in your CSS (IDEALY equal but you can center vertically the sliding boxes within the #slider container)
 
 ### ADDING SHORTCUTS
 
@@ -139,6 +141,7 @@ It's been a long time since we initially created this repo, and technology and t
 
 - Rewriting the plugin in coffee (Does it make sense ?)
 - Making examples folder in this repo
+- Setting the minimal CSS rules to make it easy to handle
 
 ### CONCLUSION
 
