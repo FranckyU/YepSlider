@@ -55,9 +55,9 @@ That'all ! you can test your page and you'll see.
 `default-css.sass` *stylesheet is providing the minimal styles to make Yep up and running with our example*  
 
 - `.slide-box` MUST be displayed inline, use `float:left` or `display: inline-block` , or add the right class for that from your favorite CSS framework (We use bootstrap so it should be something like `col` or `span`)
-- `\#slider` must have the CSS rule overflow: hidden
-- `.slide-box` AND `\#slider` MUST have the same width
-- Don't forget setting the `\#slider` container and `.slide-box` heights in your CSS (IDEALY equal but you can center vertically the sliding boxes within the `\#slider` container)
+- `#slider` must have the CSS rule overflow: hidden
+- `.slide-box` AND `#slider` MUST have the same width
+- Don't forget setting the `#slider` container and `.slide-box` heights in your CSS (IDEALY equal but you can center vertically the sliding boxes within the `#slider` container)
 
 ### ADDING SHORTCUTS
 
