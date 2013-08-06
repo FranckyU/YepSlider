@@ -143,7 +143,6 @@ It's been a long time since we initially created this repo, and technology and t
 
 - Rewriting the plugin in coffee (Does it make sense ?)
 - Making examples folder in this repo
-- Setting the minimal CSS rules to make it easy to handle
 
 ### CONCLUSION
 
